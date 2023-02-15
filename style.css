@@ -13,7 +13,24 @@
 
 button {
   border: none;
+  border-radius: 3px;
   padding: 0.5rem 1rem;
   color: #efdcdc;
   background-color: #2c3e50;
+}
+
+img {
+  display: inline-block;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px solid #2c3e50;
+  margin: 0 0.5rem;
+  cursor: pointer;
+}
+
+.female {
+  color: darkcyan;
+  background-color: pink;
 }
